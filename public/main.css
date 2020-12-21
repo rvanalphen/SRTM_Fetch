@@ -556,3 +556,12 @@ input[type=text]:focus {
     justify-content: center;
     align-items: center;
 }
+
+#results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #eece1a;
+    font-size: larger;
+}
