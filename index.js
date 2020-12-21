@@ -9,7 +9,6 @@ app.use(express.json({
 
 app.post('/api', (request, response) => {
     console.log('I got a request');
-    console.log(request.body);
     const coords = request.body;
     const timestamp = Date.now();
     coords.timestamp = timestamp;
