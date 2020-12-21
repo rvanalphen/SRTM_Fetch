@@ -17,7 +17,7 @@ button.addEventListener('click', async event => {
     const json = await response.json();
     // console.log(json);
 });
-
+dat = []
 button.addEventListener('click', async event => {
     const lat = document.getElementById('lat').value;
     const lon = document.getElementById('lon').value;
@@ -26,8 +26,13 @@ button.addEventListener('click', async event => {
     const response = await fetch(api_url);
     const data = await response.json();
     console.log(data);
-    const elevation = data.geoPoints[0].elevation;
+    dat.push(data)
+    elevationHTMLString = `<h2>The Location is out of bounds, please choose another coordinate!</h2>`
+    if (data.geoPoints) {
+        const elevation = data.geoPoints[0].elevation;
+        elevationHTMLString = `<h2>The Elevation at ${lat}N, ${lon}W is ${elevation}m</h2>`
+    }
+
     const div = document.getElementById('results')
-    const elevationHTMLString = `<p>The Elevation at ${lat}N, ${lon}W is ${elevation}m</p>`
     div.innerHTML = elevationHTMLString;
 });

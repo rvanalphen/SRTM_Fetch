@@ -564,4 +564,6 @@ input[type=text]:focus {
     align-items: center;
     color: #eece1a;
     font-size: larger;
+    padding: 10px;
+    background: rgba(83, 83, 83);
 }
