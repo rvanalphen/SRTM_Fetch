@@ -1,0 +1,21 @@
+{
+  "name": "dem_fetch",
+  "version": "1.0.0",
+  "description": "This is a script to pull DEM information ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DEM",
+    "javascript",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.0"
+  }
+}
