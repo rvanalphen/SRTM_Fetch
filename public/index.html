@@ -58,20 +58,13 @@
             SRTM <span class="text-secondary"> Request</span>
         </h1>
         <h2 class="sm-heading">
-            DEM Elevation Request
+            Use the Inputs Below to Get Ground Elevation Based On SRTM Topography
         </h2>
-        <!-- Basic info about the project, an overview-->
         <div class="project-info">
             <class class="project-text">
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero sequi distinctio repellat,
-                    odit nemo consequuntur? Asperiores atque accusamus quod cumque ab veniam fugiat porro
-                    exercitationem. Sit possimus iusto maxime tempora ullam veniam fugit! Modi voluptatum ipsum qui
-                    fugit est nisi labore vel dolore quas doloremque voluptas rem officia possimus esse tenetur corporis
-                    illum, earum, magnam a necessitatibus molestias suscipit quisquam. Mollitia tempora cupiditate autem
-                    similique nam modi magni quo neque! Voluptatum omnis culpa iste. Officiis perferendis esse
-                    consequatur quam vel aperiam repellat laboriosam rerum veritatis dicta accusantium commodi ratione
-                    eligendi exercitationem, voluptatibus facere maiores non, explicabo dolorem eius unde!
+                    Welcome to my Web App! Using this application you can input your desired latitude, longitude, and
+                    SRTM resolution and receive back the elevation at that location
                 </p>
             </class>
             <hr style="margin: auto;">
@@ -91,21 +84,26 @@
             <button id="submit">submit</button>
         </div>
         <div id="results" class="sm-heading"></div>
-        <!-- section to actually talk about the project-->
         <div>
             <class class="project-section" style="font-size: 1.25rem;">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatem iusto, corrupti, temporibus,
-                    voluptates ea harum veniam nobis voluptatum nihil eum velit commodi quidem illo asperiores! Enim
-                    quidem dicta iste quos reprehenderit, impedit amet tempora, praesentium facere molestias at ex,
-                    dolorem culpa sit ullam optio voluptas nisi laborum saepe aliquid.
+                <p style="font-size: smaller;">
+                    This data is accessed through the use of OpenTopography and their API. Learn more about
+                    OpenTopography <a href="https://opentopography.org/about" style="color: #eece1a;">here</a>
+                    <br>
+                    The data itself is from The
+                    Shuttle Radar Topography Mission:<br> Farr, T.G., Rosen, P.A., Caro, E., Crippen, R., Duren, R.,
+                    Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J.,
+                    Umland, J., Werner, M., Oskin, M., Burbank, D., Alsdorf, D. (2007), The Shuttle Radar Topography
+                    Mission, Rev. Geophys., 45, RG2004. <a href=" https://doi.org/10.1029/2005RG000183"
+                        style="color: #eece1a;">
+                        https://doi.org/10.1029/2005RG000183</a>
                 </p>
             </class>
         </div>
+        <footer id="main-footer">
+            copyright &copy; 2020
+        </footer>
     </main>
-    <footer id="main-footer">
-        copyright &copy; 2020
-    </footer>
     <!-- javascript code -->
     <script src="./main.js"></script>
     <script src="./demCall.js"></script>

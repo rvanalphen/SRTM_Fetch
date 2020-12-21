@@ -81,7 +81,7 @@
 .menu-branding .portrait {
     width: 250px;
     height: 250px;
-    /* background: url("../images/portrait_small.jpg"); */
+    background: url("http://rvanalphen.myweb.usf.edu/home/dist/images/portrait_small.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 50%;
