@@ -15,7 +15,7 @@ button.addEventListener('click', async event => {
     };
     const response = await fetch('/api', options);
     const json = await response.json();
-    console.log(json);
+    // console.log(json);
 });
 
 

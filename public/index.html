@@ -8,7 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="main.css">
 
-    <title>Passive Degassing</title>
+    <title>SRTM WebApp</title>
 </head>
 
 <body>
@@ -76,11 +76,14 @@
             </class>
             <hr style="margin: auto;">
         </div>
-        <div id="geo">
+        <div id="coordinates">
             <label for="lat">Latitude</label>
-            <input id="lat" value="0" /> <br>
+            <input type="text" id="lat" value="0" /> <br>
             <label for="lon">Longitude</label>
-            <input id="lon" value="0" /><br>
+            <input type="text" id="lon" value="0" /><br>
+        </div>
+        <label id="SrcandSubmit">Source</label>
+        <div id="SrcandSubmit">
             <select id="source">
                 <option value="SRTM_GL3">90m SRTM</option>
                 <option value="SRTM_GL1">30m SRTM</option>
@@ -103,7 +106,7 @@
         copyright &copy; 2020
     </footer>
     <!-- javascript code -->
-    <script src="../main.js"></script>
+    <!-- <script src="../main.js"></script> -->
     <script src="./demCall.js"></script>
 
 </body>

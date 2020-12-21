@@ -81,7 +81,7 @@
 .menu-branding .portrait {
     width: 250px;
     height: 250px;
-    background: url("../images/portrait_small.jpg");
+    /* background: url("../images/portrait_small.jpg"); */
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -528,4 +528,31 @@ img:hover {
     100% {
         transform: translateY(0);
     }
+}
+
+#coordinates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+#SrcandSubmit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
