@@ -1,7 +1,7 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
-const port = process.env.PORT || 80
+const port = process.env.PORT || 443 
 app.listen(port, () => console.log('listening...'));
 app.use(express.static('public'));
 app.use(express.json({
