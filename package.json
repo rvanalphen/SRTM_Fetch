@@ -11,7 +11,7 @@
     "javascript",
     "api"
   ],
-  "author": "",
+  "author": "Robert Van Alphen",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
