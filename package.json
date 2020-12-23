@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  }  
   "name": "dem_fetch",
   "version": "1.0.0",
   "description": "This is a script to pull DEM information ",
